@@ -1,0 +1,227 @@
+/* Global Page */
+body {
+  background-color: #f3eae5;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* Header */
+.header-container {
+  text-align: center;
+}
+.profile_img {
+  padding-top: 1rem;
+  width: 55%;
+}
+h1 {
+  font-size: 7rem;
+}
+.about-me {
+  font-size: 1.5rem;
+}
+/* Main */
+main {
+  text-align: center;
+}
+h2 {
+  font-size: 4rem;
+}
+.title-name {
+  position: relative;
+  text-align: center;
+}
+.title-name:before {
+  content: "";
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top: calc(50% - 1px);
+}
+
+.title-name span {
+  display: inline-block;
+  padding: 0 15px;
+  background: #f3eae5;
+  position: relative;
+  z-index: 1;
+}
+.flex-center {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 5rem;
+}
+.flex-card {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  background-color: #bf7554;
+  width: 90%;
+  border-radius: 7rem;
+  display: flex;
+  justify-content: center;
+}
+.float-left {
+  position: absolute;
+  left: 6.1rem;
+  width: 8%;
+  padding-top: 7px;
+}
+.position {
+  position: relative;
+  font-size: 30px;
+}
+
+/* TABLET */
+
+@media only screen and (device-width: 768px) {
+  .profile_img {
+    width: 35%;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .about-me {
+    font-size: 16px;
+  }
+  .card {
+    width: 75%;
+  }
+  .flex-center {
+    padding-left: 12rem;
+  }
+  .float-left {
+    width: 6%;
+    left: 13rem;
+    padding-top: 2px;
+  }
+  .position {
+    font-size: 20px;
+  }
+}
+
+/* DEKSTOP / SMALL SCREEN */
+
+@media screen and (min-width: 1024px) {
+  .profile_img {
+    width: 30%;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .about-me {
+    font-size: 20px;
+  }
+  .card {
+    width: 70%;
+  }
+  .flex-center {
+    padding-left: 14rem;
+  }
+  .float-left {
+    width: 6%;
+    left: 15rem;
+    padding-top: 3px;
+  }
+  .position {
+    font-size: 20px;
+  }
+}
+/* DEKSTOP / MEDIUM SCREEN */
+@media screen and (min-width: 1440px) {
+  .profile_img {
+    width: 30%;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .about-me {
+    font-size: 20px;
+  }
+  .card {
+    width: 75%;
+  }
+  .flex-center {
+    padding-left: 17rem;
+  }
+  .float-left {
+    width: 5%;
+    left: 18rem;
+    padding-top: 3px;
+  }
+  .position {
+    font-size: 25px;
+  }
+}
+
+/* BIG SCREEN */
+@media screen and (min-width: 1441px) {
+  .profile_img {
+    width: 20%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .about-me {
+    font-size: 1.6rem;
+  }
+  span {
+    font-size: 1.7rem;
+  }
+  .position {
+    font-size: 20px;
+  }
+  .card {
+    width: 60%;
+  }
+  .flex-center {
+    padding-left: 33rem;
+  }
+  .float-left {
+    width: 3%;
+    left: 34rem;
+    padding-top: 3px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .profile_img {
+    width: 15%;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .about-me {
+    font-size: 1.5rem;
+  }
+  span {
+    font-size: 2.5rem;
+  }
+  .position {
+    font-size: 2rem;
+  }
+  .card {
+    width: 60%;
+  }
+  .flex-center {
+    padding-left: 45rem;
+  }
+  .float-left {
+    width: 3.4%;
+    left: 46rem;
+    padding-top: 7px;
+  }
+}
